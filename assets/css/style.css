@@ -1,7 +1,22 @@
 
 body {
-  font-family: "Open Sans", sans-serif;
-  background: #0c0b09;
-  color: #fff;
-  user-select: none;
+  background-image: ("https://tascaeltapon.es/assets/img/fondo_mvl.jpg");
+}
+
+@media (min-width: 576px) {
+  .body {
+    background-image: ("https://tascaeltapon.es/assets/img/fondo_mvl.jpg");
+  }
+}
+
+@media (min-width: 992px) {
+  .body {
+    background-image: ("https://tascaeltapon.es/assets/img/fondo_mvl.jpg");
+  }
+}
+
+@media (min-width: 1200px) {
+  .body {
+    background-image: ("https://tascaeltapon.es/assets/img/fondo_mvl.jpg");
+  }
 }
