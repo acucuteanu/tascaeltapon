@@ -6,11 +6,6 @@ html{
   background-size: cover;
 }
 
-body {
-
-
-}
-
 @media (min-width: 576px) {
   .body {
 
@@ -24,7 +19,11 @@ body {
 }
 
 @media (min-width: 1200px) {
-  .body {
-
+  .html{
+    background: url("https://tascaeltapon.es/assets/img/fondo_pc.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
   }
 }
