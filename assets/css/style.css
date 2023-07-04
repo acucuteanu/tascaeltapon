@@ -20,7 +20,7 @@ html{
 
 @media (min-width: 1200px) {
   html{
-    background: url("https://tascaeltapon.es/assets/img/fondo_pc.jpg") no-repeat center center fixed; 
+    background: url("https://tascaeltapon.es/assets/img/fondo_pc.jpg") no-repeat fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
