@@ -9,16 +9,13 @@ html{
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  font-size: 80px;
+  font-size: 260%;
   font-family: Verlag;
 }
 
 @media (min-width: 1200px) {
   html{
-    background: url("https://tascaeltapon.es/assets/img/fondo_pc.jpg") no-repeat fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+    background: url("https://tascaeltapon.es/assets/img/fondo_pc.jpg") no-repeat center center fixed; 
     background-size: cover;
   }
 }
