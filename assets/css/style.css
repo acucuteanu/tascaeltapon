@@ -1,21 +1,16 @@
+@font-face {
+  font-family: Verlag;
+  src: url('../fonts/thirstyscriptextrabolddemo.otf');
+}
+
 html{
   background: url("https://tascaeltapon.es/assets/img/fondo_mvl.jpg") no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-}
-
-@media (min-width: 576px) {
-  .body {
-
-  }
-}
-
-@media (min-width: 992px) {
-  .body {
-
-  }
+  font-size: 80px;
+  font-family: Verlag;
 }
 
 @media (min-width: 1200px) {
@@ -26,4 +21,27 @@ html{
     -o-background-size: cover;
     background-size: cover;
   }
+}
+
+nav > ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}
+
+li {
+  padding-left: 3%;
+  padding-right: 3%;
+}
+
+li a {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: black;
+}
+
+li a:hover {
+  background-color: #8D3333;
 }
