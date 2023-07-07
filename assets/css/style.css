@@ -13,17 +13,7 @@ html{
   font-family: Verlag;
 }
 
-@media (min-width: 1200px) {
-  html{
-    /*background: url("https://tascaeltapon.es/assets/img/fondo_pc_2.jpg") no-repeat center center fixed; */
-    background: linear-gradient(to bottom, black, transparent) no-repeat, url("../img/IMG_3930.jpg") no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    font-size: 260%;
-  }
-}
+
 
 nav > ul {
   display: flex;
@@ -32,8 +22,8 @@ nav > ul {
 }
 
 li {
-  padding-left: 3%;
-  padding-right: 3%;
+  padding-left: 1%;
+  padding-right: 1%;
 }
 
 li a {
@@ -41,9 +31,29 @@ li a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  color: white;
+  color: black;
 }
 
 li a:hover {
   background-color: #8D3333;
+}
+
+@media (min-width: 1200px) {
+  html{
+    background: linear-gradient(to bottom, black, transparent) no-repeat, url("../img/IMG_3930.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-size: 260%;
+  }
+
+  li {
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+
+  li a {
+    color: white;
+  }
 }
