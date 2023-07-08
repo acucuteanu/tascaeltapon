@@ -25,6 +25,9 @@ h3 {
   padding-top: 1%;
   background: #E0D2C5;
   height: 55vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .logo img {
@@ -118,7 +121,7 @@ section {
 
 .separator {
   position: absolute;
-  top: 0;
+  top: -1px;
 }
 
 .separator-bottom {
@@ -195,11 +198,11 @@ label {
 
 @media only screen and (max-width: 480px) {
   .logo {
-    height: 30vh;
+    height: 40vh;
   }
 
   .logo img {
-    width: 60%;
+    width: 50%;
   }
 
   iframe {
@@ -211,9 +214,9 @@ label {
   .ir-arriba {
     padding: 4px 10.25px 4px 10.25px;
     right: 28px;
-    bottom: 90px;
-    width: 45px;
-    height: 45px;
+    bottom: 80px;
+    width: 40px;
+    height: 40px;
   }
 
   .whatsapp {
@@ -222,7 +225,7 @@ label {
   }
   
   .whatsapp img {
-    width: 65px;
+    width: 55px;
   }
 
   h3 {
@@ -242,7 +245,6 @@ label {
   }
   
   .texto {
-    text-align: center;
     font-size: 180%;
   }
 
