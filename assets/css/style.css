@@ -68,6 +68,11 @@ h3 {
   font-size: 200%;
 }
 
+.datos a {
+  text-decoration: none; 
+  color: black;
+}
+
 /*****************************/
 /*   SEPARADOR - TRIANGULO   */
 /*****************************/
@@ -141,8 +146,10 @@ section {
   font-size:20px;
   color:#fff;
   cursor:pointer;
-  bottom: 120px;
-  right: 35px;
+  /*bottom: 120px;
+  right: 35px;*/
+  bottom: 20px;
+  right:20px;
   border-radius: 15%;
   box-shadow: 0px 1px 4px rgba(0,0,0,.4);
   width: 60px;
@@ -213,8 +220,10 @@ label {
 
   .ir-arriba {
     padding: 4px 10.25px 4px 10.25px;
-    right: 24px;
-    bottom: 80px;
+    /*right: 24px;
+    bottom: 80px;*/
+    bottom: 15px;
+    right: 15px;
     width: 40px;
     height: 40px;
   }
@@ -229,7 +238,7 @@ label {
   }
 
   h3 {
-    font-size: 300%;
+    font-size: 250%;
   }
 
   .carta img {
