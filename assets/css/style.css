@@ -213,7 +213,7 @@ label {
 
   .ir-arriba {
     padding: 4px 10.25px 4px 10.25px;
-    right: 28px;
+    right: 24px;
     bottom: 80px;
     width: 40px;
     height: 40px;
@@ -245,7 +245,7 @@ label {
   }
   
   .texto {
-    font-size: 180%;
+    font-size: 170%;
   }
 
 }
