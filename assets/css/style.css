@@ -55,7 +55,7 @@
   }
 
   .carta_sec {
-    padding-top: 5%;
+    padding-top: 1%;
     background-color: #641C20;
     color: white;
   }
@@ -115,21 +115,24 @@
   /*     SEPARADOR - CURVA     */
   /*****************************/
 
-  .curved {
-    position: relative;
-    background: #641C20;
-    height: 25vh;
+  .white {
+    background-color: white;
   }
-
-  .curved::after {
-    content: '';
-    border-top-left-radius: 50% 100%;
-    border-top-right-radius: 50% 100%;
+  
+  section {
+    height: auto;
+    min-height: 15vh;
+    position: relative;
+  }
+  
+  .separator {
+    position: absolute;
+    top: 0;
+  }
+  
+  .separator-bottom {
     position: absolute;
     bottom: 0;
-    width: 100%;
-    background: #fff;
-    height: 28%;
   }
 
   /***************/
@@ -154,8 +157,6 @@
 
   .ir-arriba img {
     width: 100%; 
-    /*height: 100%; */
-    /*object-fit: cover;*/
   }
 
   /**************/
@@ -179,7 +180,7 @@
   /**************/
 
   footer {
-    margin-top: 10%;
+    margin-top: 10vh;
     background-color: #651D20;
     color: white;
     text-align: center;
@@ -197,3 +198,12 @@
     font-family: 'Roboto', sans-serif;
   }
 /*}*/
+
+/***************/
+/*  RESPONSIVE */
+/***************/
+
+@media only screen and (max-width: 480px) {
+
+
+}
