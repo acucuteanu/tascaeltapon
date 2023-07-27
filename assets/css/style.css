@@ -45,7 +45,6 @@ h3 {
 }
 
 .carta img {
-  padding-top: 5%;
   width: 95%;
 }
 
@@ -84,6 +83,7 @@ h3 {
 }
 
 .row_2{
+  top: -1.5px;
   width:100%;
   padding:0;
   margin:0;
